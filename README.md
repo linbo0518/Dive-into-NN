@@ -1,6 +1,6 @@
 # Dive into NN: Theory, Architecture and Initialization
 
-Oral for AI-ML-Club(`AMC` for short), our [GitHub](https://github.com/BUPT/ai-ml.club) and [Blog](https://ai-ml.club/)
+Oral for AI-ML-Club(`AMC` for short), for more detail about our club, check out our [GitHub](https://github.com/BUPT/ai-ml.club) and [Website](https://ai-ml.club/)
 
 - [Dive into NN: Theory, Architecture and Initialization](#Dive-into-NN-Theory-Architecture-and-Initialization)
   - [Material](#Material)

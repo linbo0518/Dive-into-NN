@@ -24,7 +24,7 @@ Oral for AI-ML-Club(`AMC` for short), for more detail about our club, check out 
 ### Link
 
 - [如何评价ICLR 2019最佳论文《The Lottery Ticket Hypothesis》？](https://www.zhihu.com/question/323214798)
-- [求道之人，不问寒暑](https://zhuanlan.zhihu.com/p/67782029)
+- [求道之人，不问寒暑（三）](https://zhuanlan.zhihu.com/p/67782029)
 
 ## Slide
 

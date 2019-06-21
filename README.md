@@ -13,11 +13,16 @@ Oral for AI-ML-Club(`AMC` for short), for more detail about our club, check out 
 
 ### Paper
 
+Part 1
+
 - [Rethinking The Value of Network Pruning](https://arxiv.org/abs/1810.05270)
 - [The Lottery Ticket Hypothesis- Finding Sparse, Trainable Neural Networks](https://arxiv.org/abs/1803.03635)
+- [Luck Matters: Understanding Training Dynamics of Deep ReLU Networks](https://arxiv.org/abs/1905.13405)
+
+Part 2
+
 - [The Benefits of Over-parameterization at Initialization in Deep ReLU Networks](https://arxiv.org/abs/1901.03611)
 - [Stabilizing the Lottery Ticket Hypothesis](https://arxiv.org/abs/1903.01611)
-- [Luck Matters: Understanding Training Dynamics of Deep ReLU Networks](https://arxiv.org/abs/1905.13405)
 - [How to Initialize your Network](https://arxiv.org/abs/1906.02341)
 
 ### Link
@@ -30,6 +35,8 @@ Oral for AI-ML-Club(`AMC` for short), for more detail about our club, check out 
 [Google Slide](https://docs.google.com/presentation/d/1cQqC3SRYlZypvQFtG7pvkBzYK1hMgu8HjwO5qvlX48Q/edit?usp=sharing)(under construction...)
 
 ## Thinking
+
+Part 1
 
 - [x] Rethinking The Value of Network Pruning
 
@@ -55,8 +62,10 @@ Oral for AI-ML-Club(`AMC` for short), for more detail about our club, check out 
 > 
 > > 就是说初始参数固定了，最优子网络就固定了。
 
+- [ ] Luck Matters: Understanding Training Dynamics of Deep ReLU Networks
+
+Part 2
 
 - [ ] The Benefits of Over-parameterization at Initialization in Deep ReLU Networks
 - [ ] Stabilizing the Lottery Ticket Hypothesis
-- [ ] Luck Matters: Understanding Training Dynamics of Deep ReLU Networks
 - [ ] How to Initialize your Network

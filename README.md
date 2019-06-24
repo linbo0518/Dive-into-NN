@@ -6,8 +6,9 @@ Oral for AI-ML-Club(`AMC` for short), for more detail about our club, check out 
   - [Material](#Material)
     - [Paper](#Paper)
     - [Link](#Link)
-  - [Thinking](#Thinking)
   - [Presentation](#Presentation)
+  - [Note](#Note)
+  - [Thinking](#Thinking)
 
 ## Material
 
@@ -30,6 +31,20 @@ Oral for AI-ML-Club(`AMC` for short), for more detail about our club, check out 
 - [如何评价ICLR 2019最佳论文《The Lottery Ticket Hypothesis》？](https://www.zhihu.com/question/323214798)
 - [求道之人，不问寒暑（三）](https://zhuanlan.zhihu.com/p/67782029)
 
+## Presentation
+
+**Part 1**
+
+![presentation](assets/Presentation.jpeg)
+
+You can find the full version of this slide at [Google Slide](https://docs.google.com/presentation/d/1cQqC3SRYlZypvQFtG7pvkBzYK1hMgu8HjwO5qvlX48Q/edit?usp=sharing)
+
+**Part 2 (Ongoing)**
+
+## Note
+
+See [Note](NOTE.md)
+
 ## Thinking
 
 **Part 1**
@@ -46,9 +61,6 @@ Oral for AI-ML-Club(`AMC` for short), for more detail about our club, check out 
 > 
 > > 这里再总结一下paper关于LTH的实验（也包括LTH原paper的实验），就是：在unstructured pruning上，当使用小的learning rate时，winning ticket有帮助；当使用（标准的且accuracy更高的）大learning rate时，winning ticket没有帮助；在L1-norm structured pruning上，不管大小learning rate, winning ticket都没有帮助。更多讨论见我们paper的section 6。这个回答并没有想说LTH的价值不大，只是想指出可能有些其他情况它并不成立。至于为什么即使对unstructured pruning, 也只有当小learning rate的时候LTH才成立，我的一个naive的猜想是（并没有经过实验验证，轻喷），当learning rate较小时，最终训完时候的weights和original initialization时候的weights距离较小（不一定是L2 distance,可能是更抽象的），所以如果使用original initialization来对小model进行初始化，相当于leak了一些training完后的大model的信息。极端一点的话，甚至可以说，使用了winning ticket的这个小model并不是从scratch训的，而是已经某种程度上based on这个已经train了很久的大model了，所以它能train的相对好。当使用大learning rate时，训完的weights和init的相差较远，就不存在这个原因了。
 
-![01](assets/IMG_0001.jpg)
-![02](assets/IMG_0002.jpg)
-
 **The Lottery Ticket Hypothesis- Finding Sparse, Trainable Neural Networks**
 
 > Paper
@@ -60,9 +72,6 @@ Oral for AI-ML-Club(`AMC` for short), for more detail about our club, check out 
 > Zhihu
 > 
 > > 就是说初始参数固定了，最优子网络就固定了。
-
-![03](assets/IMG_0003.jpg)
-![04](assets/IMG_0004.jpg)
 
 **Luck Matters: Understanding Training Dynamics of Deep ReLU Networks**
 
@@ -82,10 +91,6 @@ Oral for AI-ML-Club(`AMC` for short), for more detail about our club, check out 
 > >
 > > 另外，对过参化的初步分析表明，一方面lucky student weights可以收敛到对应的teacher weights，而大部分无关的student weights/nodes可能会收敛到任意的区域去——但这并不要紧，因为这些结点的上层权重会收敛到零，以减少它们对网络输出的影响。这就附带解释了为何神经网络训练后的解往往具有平坦极小值（Flat Minima）性质：对无关的学生结点而言，任意改变它们的权重，对网络输出都没有太大影响。
 
-![05](assets/IMG_0005.jpg)
-![06](assets/IMG_0006.jpg)
-![07](assets/IMG_0007.jpg)
-
 **Part 2 (Ongoing)**
 
 **The Benefits of Over-parameterization at Initialization in Deep ReLU Networks**
@@ -93,13 +98,3 @@ Oral for AI-ML-Club(`AMC` for short), for more detail about our club, check out 
 **Stabilizing the Lottery Ticket Hypothesis**
 
 **How to Initialize your Network**
-
-## Presentation
-
-**Part 1**
-
-![presentation](assets/Presentation.jpeg)
-
-You can find the full version of slide at [Google Slide](https://docs.google.com/presentation/d/1cQqC3SRYlZypvQFtG7pvkBzYK1hMgu8HjwO5qvlX48Q/edit?usp=sharing)
-
-**Part 2 (Ongoing)**

@@ -14,17 +14,13 @@ Oral for AI-ML-Club(`AMC` for short), for more detail about our club, check out 
 
 ### Paper
 
-**Part 1**
-
 - [Rethinking The Value of Network Pruning](https://arxiv.org/abs/1810.05270)
 - [The Lottery Ticket Hypothesis- Finding Sparse, Trainable Neural Networks](https://arxiv.org/abs/1803.03635)
 - [Luck Matters: Understanding Training Dynamics of Deep ReLU Networks](https://arxiv.org/abs/1905.13405)
 
-**Part 2 (Ongoing)**
-
-- [The Benefits of Over-parameterization at Initialization in Deep ReLU Networks](https://arxiv.org/abs/1901.03611)
+<!-- - [The Benefits of Over-parameterization at Initialization in Deep ReLU Networks](https://arxiv.org/abs/1901.03611)
 - [Stabilizing the Lottery Ticket Hypothesis](https://arxiv.org/abs/1903.01611)
-- [How to Initialize your Network](https://arxiv.org/abs/1906.02341)
+- [How to Initialize your Network](https://arxiv.org/abs/1906.02341) -->
 
 ### Link
 
@@ -33,21 +29,15 @@ Oral for AI-ML-Club(`AMC` for short), for more detail about our club, check out 
 
 ## Presentation
 
-**Part 1**
-
 ![presentation](assets/Presentation.jpeg)
 
 You can find the full version of this slide at [Google Slide](https://docs.google.com/presentation/d/1cQqC3SRYlZypvQFtG7pvkBzYK1hMgu8HjwO5qvlX48Q/edit?usp=sharing)
-
-**Part 2 (Ongoing)**
 
 ## Note
 
 See [Note](NOTE.md)
 
 ## Thinking
-
-**Part 1**
 
 **Rethinking The Value of Network Pruning**
 
@@ -91,10 +81,8 @@ See [Note](NOTE.md)
 > >
 > > 另外，对过参化的初步分析表明，一方面lucky student weights可以收敛到对应的teacher weights，而大部分无关的student weights/nodes可能会收敛到任意的区域去——但这并不要紧，因为这些结点的上层权重会收敛到零，以减少它们对网络输出的影响。这就附带解释了为何神经网络训练后的解往往具有平坦极小值（Flat Minima）性质：对无关的学生结点而言，任意改变它们的权重，对网络输出都没有太大影响。
 
-**Part 2 (Ongoing)**
-
-**The Benefits of Over-parameterization at Initialization in Deep ReLU Networks**
+<!-- **The Benefits of Over-parameterization at Initialization in Deep ReLU Networks**
 
 **Stabilizing the Lottery Ticket Hypothesis**
 
-**How to Initialize your Network**
+**How to Initialize your Network** -->
